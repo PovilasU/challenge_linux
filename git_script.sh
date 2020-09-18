@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 git config --global user.email "povilas.urbonas85@gmail.com"
+
+echo >> "message" README.md
+
 echo "Enter your message"
 read message
 git add .
